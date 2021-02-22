@@ -1,5 +1,5 @@
 # Introduction
-Deploy a Trading-app platform to AWS to making it scalable, elastic and highly available. Since platform follows a three-tiered microservice pattern, the application tier is a good to use AWS's Application Load Balancer (ALB). This would enable AWS to deploy EC2 instances as needed for application. Use Elastic Beanstalk to define the environment for application, as well as configuring the load balancer. In order to streamline updates to the production environment, use Jenkins to create a CI/CD pipeline that automatically pulls new versions of the application from GitHub, builds, and deploys them.
+Deploy a online trading platform to AWS to making it scalable, elastic and highly available. Since platform follows a three-tiered microservice pattern, the application tier is a good to use AWS's Application Load Balancer (ALB). This would enable AWS to deploy EC2 instances as needed for application. Use Elastic Beanstalk to define the environment for application, as well as configuring the load balancer. In order to streamline updates to the production environment, use Jenkins to create a CI/CD pipeline that automatically pulls new versions of the application from GitHub, builds, and deploys them.
 
 # Application Cloud Architecture
 ![architecture](assets/cloud.png)  
